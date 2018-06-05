@@ -1,0 +1,19 @@
+@media (max-width: 991px) {
+  .lista tr {
+    border-top: 1px solid #dee2e6;
+  }
+  .lista .table td, 
+  .lista .table th {
+    display: block;
+    padding: 0;
+    border: none;
+  }
+  .lista .table th {
+    padding-top: .75rem;
+  }
+  .lista .table td:last-child {
+    padding-top: .75rem;
+    padding-bottom: 2rem;
+    text-align: left !important;
+  }
+}
